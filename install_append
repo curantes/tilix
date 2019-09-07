@@ -1,0 +1,4 @@
+mkdir -p %{buildroot}/usr/share/package-licenses/tilix
+cp LICENSE %{buildroot}/usr/share/package-licenses/tilix/LICENSE
+cp -a data/icons/LICENSE %{buildroot}/usr/share/package-licenses/tilix/LICENSE-data-icons
+cp -a source/x11/LICENSE %{buildroot}/usr/share/package-licenses/tilix/LICENSE-source-x11
